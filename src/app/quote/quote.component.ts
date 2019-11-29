@@ -8,12 +8,14 @@ import {Quote} from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    {id:1, name:'Watch finding Nemo'},
-    {id:2,name:'Buy Cookies'},
-    {id:3,name:'Get new Phone Case'},
-    {id:4,name:'Get Dog Food'},
-    {id:5,name:'Solve math homework'},
-    {id:6,name:'Plot my world domination plan'},
+    {id:1, name:'Kamala',text:'Imbounce'},
+    {id:2,name:'Kioko',text:'If its ment to be '},
+    {id:3,name:'Moha',text:'Aki wewe'},
+    {id:4,name:'Riyad',text:'Hayawi hayawi'},
+
+    //   {id:1, name:'Watch finding Nemo',description:'Find an online version and watch merlin find his son'},
+
+
   ];
 
   constructor() { }
