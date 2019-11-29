@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from '../quote';
+import { Quote } from '../quote';
+
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
@@ -7,18 +8,14 @@ import {Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
 
-  quotes:Quote[] = [
-    {id:1, name:'Kamala',text:'Imbounce'},
-    {id:2,name:'Kioko',text:'If its ment to be '},
-    {id:3,name:'Moha',text:'Aki wewe'},
-    {id:4,name:'Riyad',text:'Hayawi hayawi'},
 
-    //   {id:1, name:'Watch finding Nemo',description:'Find an online version and watch merlin find his son'},
 
+  constructor() {}
+  quotes:Quote [] = [
+  new Quote(1, 'Vladimir', 'It was love at first sight, at last sight, at ever and ever sight.',new Date(2020,3,14)),
+  new Quote(2, 'Kamala', 'Na iwake ...wollan ...wollaan',new Date(2020,3,14)),
 
   ];
-
-  constructor() { }
 
   ngOnInit() {
   }
