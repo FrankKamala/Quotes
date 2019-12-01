@@ -10,6 +10,9 @@
       </li>
   </ul>
 </div> -->
+<div class="row">
+
+<div class="col-md-6">
 <div class="card" *ngFor='let quote of quotes;let i = index'>
   <div class="card-body">
     <h5 class="card-title" > {{quote.author}}</h5>
@@ -20,4 +23,12 @@
       ||
     <a href="#" class="btn btn-outline-primary">Down Vote</a>
   </div>
+
+</div>
+
+
+</div>
+<div class="col-md-6">
+      <app-quote-form></app-quote-form>
+    </div>
 </div>
