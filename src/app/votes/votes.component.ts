@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-votes',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./votes.component.css']
 })
 export class VotesComponent implements OnInit {
-
+@Output() voteQuotes=new EventEmitter<boolean>();
  numberOfUpvote=0;
  numberOfDvote=0;
  upVotes(){
@@ -15,6 +15,11 @@ export class VotesComponent implements OnInit {
  downVotes(){
    this.numberOfDvote++;
  }
+
+ deleteQuote(del: boolean){
+   this.voteQuotes.emit(del);
+ }
+
   constructor() { }
 
   ngOnInit() {

@@ -18,9 +18,9 @@
     <h5 class="card-title font-weight-bold" > {{quote.author}}</h5>
     <p class="card-text lead font-italic"> {{quote.message}}</p>
     <p> </p>
-<footer class="blockquote-footer">posted <cite title="Source Title">{{quote.date|date}}</cite></footer>
+<footer class="blockquote-footer">Posted  <cite title="Source Title">{{quote.date|date}}</cite></footer>
 <br>
-    <app-votes></app-votes>
+    <app-votes (voteQuotes)='deletedQuote($event, i)'></app-votes>
   </div>
 
 </div>
