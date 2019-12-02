@@ -11,8 +11,8 @@ export class QuoteComponent implements OnInit {
 
 
   quotes:Quote [] = [
-  new Quote(1, 'Vladimir', 'It was love at first sight, at last sight, at ever and ever sight.',new Date(2020,3,14)),
-  new Quote(2, 'Kamala', 'Na iwake ...wollan ...wollaan',new Date(2020,3,14)),
+  new Quote(1, 'Miguna Miguna', 'Kenya cannot thrive and prosper when thieves, looters, land grabbers and drug barons occupy public office.',new Date(2019,3,14)),
+  new Quote(2, 'Rekless', 'Yesss Bana',new Date(2019,10,7)),
 
   ];
   addNewQuote(quote){
