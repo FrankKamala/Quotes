@@ -1,5 +1,12 @@
 # Quotes
 
+## Description
+This is an Angular Application that allows users to add quotes post them and delete.Users can also vote for the available quotes .Votes are grouped in Upvotes and Downvotes.
+
+## Author
+Francis Kamala Albert.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
 ## Development server
