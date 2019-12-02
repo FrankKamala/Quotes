@@ -6,9 +6,26 @@ This is an Angular Application that allows users to add quotes post them and del
 ## Author
 Francis Kamala Albert.
 
+## Screenshot
+![image](https://github.com/FrankKamala/Quotes/blob/master/src/assets/screen.png)
+
+## Setup
+`git clone https://github.com/FrankKamala/Quotes.git`
+
+Unzip the folder contents and open index.html file on any browser
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
+## Technologies Used
+* HTML
+* Bootsrap
+* Typescript
+* Angular 8
+
+
+## Support and contact details
+
+Drop your suggestions via **Email** :<frankkamala@gmail.com>
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
