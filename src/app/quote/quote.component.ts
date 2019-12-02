@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
 
 
   quotes:Quote [] = [
-  new Quote(1, 'Miguna Miguna', 'Kenya cannot thrive and prosper when thieves, looters, land grabbers and drug barons occupy public office.',new Date(2019,3,14)),
+  new Quote(1, 'Miguna Miguna', 'We cannot thrive when thieves, looters, land grabbers and drug barons occupy public office.',new Date(2019,3,14)),
   new Quote(2, 'Rekless', 'Yesss Bana',new Date(2019,10,7)),
 
   ];
